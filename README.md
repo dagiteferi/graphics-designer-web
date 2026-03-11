@@ -1,73 +1,109 @@
-# Welcome to your Lovable project
+# Samuel — Graphic Designer & Video Editor
 
-## Project info
+![Project Banner](public/social-share.jpg)
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+A professional portfolio showcasing creative design and cinematic video editing by Samuel. This project highlights a diverse range of work, from brand identity and poster design to music videos and corporate promos, demonstrating a meticulous eye for detail and a deep understanding of visual storytelling.
 
-## How can I edit this code?
+## Features
 
-There are several ways of editing your application.
+*   **Interactive Hero Section:** Engaging introduction with animated elements, including transparent image overlays.
+*   **Dynamic Work Showcase:** Marquee-style display of graphic design and video editing projects.
+*   **Detailed About Section:** Information about Samuel's skills, experience, and tools.
+*   **Contact Form:** Easy way for clients to get in touch.
+*   **Responsive Design:** Optimized for various devices.
+*   **Smooth Scrolling:** Enhanced user experience with `lenis` integration.
+*   **Modern UI Components:** Built with Shadcn UI and Tailwind CSS.
 
-**Use Lovable**
+## Technologies Used
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+*   **Frontend:** React, TypeScript, Vite
+*   **Styling:** Tailwind CSS, Shadcn UI
+*   **Animation:** Framer Motion, GSAP
+*   **Smooth Scrolling:** Lenis
+*   **Routing:** React Router DOM
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+To get a local copy up and running, follow these simple steps.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Prerequisites
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+Make sure you have Node.js and npm (or Yarn/Bun) installed.
 
-Follow these steps:
+*   Node.js (v18 or higher recommended)
+*   npm (v9 or higher) | Yarn (v1 or higher) | Bun (v1 or higher)
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### Installation
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+1.  Clone the repository:
+    ```bash
+    git clone https://github.com/dagiteferi/graphics-designer-web.git
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd graphics-designer-web
+    ```
+3.  Install dependencies:
+    ```bash
+    npm install # or yarn install or bun install
+    ```
 
-# Step 3: Install the necessary dependencies.
-npm i
+### Running the Project
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+To run the development server:
+
+```bash
+npm run dev # or yarn dev or bun dev
 ```
 
-**Edit a file directly in GitHub**
+Open [http://localhost:8080](http://localhost:8080) in your browser.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Building for Production
 
-**Use GitHub Codespaces**
+To build the project for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build # or yarn build or bun build
+```
 
-## What technologies are used for this project?
+This will create a `dist` folder with the optimized production build.
 
-This project is built with:
+## Project Structure
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```
+.
+├── public/                 # Static assets
+├── src/
+│   ├── assets/             # Images and other media
+│   ├── components/         # Reusable React components (e.g., Navbar, Footer, UI elements)
+│   │   └── ui/             # Shadcn UI components
+│   ├── hooks/              # Custom React hooks
+│   ├── lib/                # Utility functions (e.g., cn for Tailwind)
+│   ├── pages/              # Page-level components (e.g., Index, NotFound)
+│   ├── App.tsx             # Main application component
+│   ├── main.tsx            # Entry point for the React application
+│   └── index.css           # Global styles
+├── .gitignore              # Specifies intentionally untracked files to ignore
+├── package.json            # Project dependencies and scripts
+├── tailwind.config.ts      # Tailwind CSS configuration
+├── tsconfig.json           # TypeScript configuration
+├── vite.config.ts          # Vite build tool configuration
+└── README.md               # Project README file
+```
 
-## How can I deploy this project?
+## Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
 
-## Can I connect a custom domain to my Lovable project?
+## License
 
-Yes, you can!
+Distributed under the MIT License. See `LICENSE` for more information.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## Contact
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+**Samuel** (Graphic Designer & Video Editor)
+*   Email: [hello@alexcarter.design](mailto:hello@alexcarter.design)
+
+**Dagmawi Teferi** (Developer & Designer)
+*   GitHub: [dagiteferi](https://github.com/dagiteferi)
+*   Project Link: [https://github.com/dagiteferi/graphics-designer-web](https://github.com/dagiteferi/graphics-designer-web)
