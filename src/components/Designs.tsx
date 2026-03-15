@@ -3,7 +3,7 @@ import { useRef } from 'react';
 
 import workBrand from '@/assets/work-brand-identity.jpg';
 import workLogo from '@/assets/work-logo-design.jpg';
-import workPoster from '@/assets/work-poster.jpg';
+import workPoster from '@/assets/work-poster.jpeg';
 import workSocial from '@/assets/work-social-media.jpg';
 import workPackaging from '@/assets/work-packaging.jpg';
 
